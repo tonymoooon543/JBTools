@@ -1,0 +1,12 @@
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\bin\Debug\JBLog.exe.config
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\bin\Debug\JBLog.exe
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\bin\Debug\JBLog.pdb
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\obj\Debug\JBLog.csprojAssemblyReference.cache
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\obj\Debug\JBLog.Form1.resources
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\obj\Debug\JBLog.Properties.Resources.resources
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\obj\Debug\JBLog.csproj.GenerateResource.cache
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\obj\Debug\JBLog.csproj.CoreCompileInputs.cache
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\obj\Debug\JBLog.exe
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\obj\Debug\JBLog.pdb
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\bin\Debug\Logs.xml
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\obj\Debug\JBLog.AboutBox.resources
