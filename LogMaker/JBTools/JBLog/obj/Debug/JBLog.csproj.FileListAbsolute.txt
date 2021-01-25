@@ -10,3 +10,4 @@ C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\J
 C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\obj\Debug\JBLog.pdb
 C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\bin\Debug\Logs.xml
 C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\obj\Debug\JBLog.AboutBox.resources
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\JBLog\obj\Debug\JBLog.LogEditor.resources

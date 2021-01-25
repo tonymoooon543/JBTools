@@ -9,11 +9,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 using JBLog.API;
+using System.IO;
 
 namespace JBLog
 {
     public partial class Form1 : Form
     {
+        public bool logsFound = true;
+        public string XmlFile = "Logs.xml";
+
         public Form1()
         {
             InitializeComponent();
@@ -28,16 +32,28 @@ namespace JBLog
             XmlDocument doc = new XmlDocument();
             doc.Load("Logs.xml");
 
-            // Goes through the XML and reads the Log Nodes
-            foreach(XmlNode node in doc.DocumentElement)
+            try
             {
-                string name = node.Attributes[0].Value;
-                string date = node["Date"].InnerText;
-                string logcon = node["LogContents"].InnerText;
-                string feel = node["Feeling"].InnerText;
-                // Adds the Log to the List Box
-                LogListBox.Items.Add(new Log(name, date, logcon, feel));
+                // Goes through the XML and reads the Log Nodes
+                foreach (XmlNode node in doc.DocumentElement)
+                {
+                    string name = node.Attributes[0].Value;
+                    string date = node["Date"].InnerText;
+                    string logcon = node["LogContents"].InnerText;
+                    string feel = node["Feeling"].InnerText;
+                    // Adds the Log to the List Box
+                    LogListBox.Items.Add(new Log(name, date, logcon, feel));
+                }
             }
+            catch(XmlException e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+            finally
+            {
+                logsFound = false;
+            }
+            
         }
 
         /// <summary>
@@ -56,6 +72,10 @@ namespace JBLog
                 dateTextBox.Text = selectedLog.date;
                 logContentsTextBox.Text = selectedLog.logContents;
                 feelingTextBox.Text = selectedLog.feeling;
+            }
+            else
+            {
+                MessageBox.Show("Invalid Index Selected");
             }
         }
 
@@ -76,5 +96,11 @@ namespace JBLog
             about.Show();
         }
         #endregion
+
+        private void newLog_Click(object sender, EventArgs e)
+        {
+            LogEditor newlog = new LogEditor();
+            newlog.Show();
+        }
     }
 }
