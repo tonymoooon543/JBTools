@@ -23,6 +23,7 @@ namespace JBLog.API
             feeling = Feeling;
         }
 
+        // Comment this
         static public bool AddLog(string logName, string Date, string LogContents, string Feeling)
         {
             var form1 = Application.OpenForms.OfType<Form1>().Single();
@@ -47,14 +48,38 @@ namespace JBLog.API
                 doc.DocumentElement.AppendChild(log);
                 doc.Save("Logs.xml");
 
-
                 form1.LogListBox.Items.Add(new Log(logName, Date, LogContents, Feeling));
                 return true;
             }
             catch (Exception e)
             {
+                MessageBox.Show("Excexption: " + e.ToString(), "Something went wrong!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
+        }
+
+        static public bool DeleteLog(string logName)
+        {
+            return false;
+        }
+
+        static public string EditLog(string logName)
+        {
+            XmlDocument docs = new XmlDocument();
+            docs.Load("Logs.xml");
+            XmlElement root = docs.DocumentElement;
+            foreach (XmlNode nodes in root.ChildNodes)
+            {
+                if(nodes.Attributes[0].InnerText == logName)
+                {
+                    foreach(XmlNode childNode in nodes.ChildNodes)
+                    {
+                        
+                        
+                    }
+                }
+            }
+            return "Log Not found";
         }
     }
 }

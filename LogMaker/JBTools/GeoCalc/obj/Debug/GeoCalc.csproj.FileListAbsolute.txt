@@ -1,0 +1,10 @@
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\GeoCalc\bin\Debug\GeoCalc.exe.config
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\GeoCalc\bin\Debug\GeoCalc.exe
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\GeoCalc\bin\Debug\GeoCalc.pdb
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\GeoCalc\obj\Debug\GeoCalc.csprojAssemblyReference.cache
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\GeoCalc\obj\Debug\GeoCalc.Form1.resources
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\GeoCalc\obj\Debug\GeoCalc.Properties.Resources.resources
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\GeoCalc\obj\Debug\GeoCalc.csproj.GenerateResource.cache
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\GeoCalc\obj\Debug\GeoCalc.csproj.CoreCompileInputs.cache
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\GeoCalc\obj\Debug\GeoCalc.exe
+C:\Users\wayne\Desktop\Jakob2\Programing\C++andC#\MeOwnToolsAndThings\LogMaker\JBTools\GeoCalc\obj\Debug\GeoCalc.pdb

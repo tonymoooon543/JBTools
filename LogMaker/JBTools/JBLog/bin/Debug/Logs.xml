@@ -1,4 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Logs>
-  
+  <Log logname="Log 1">
+    <Date>Date 1</Date>
+    <LogContents>Log con 1</LogContents>
+    <Feeling>Feeling 1</Feeling>
+  </Log>
+  <Log logname="Log 2">
+    <Date>Date 2</Date>
+    <LogContents>Log con 2</LogContents>
+    <Feeling>Feeling 2</Feeling>
+  </Log>
 </Logs>

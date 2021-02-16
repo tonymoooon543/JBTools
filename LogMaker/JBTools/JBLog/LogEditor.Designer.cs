@@ -33,7 +33,7 @@ namespace JBLog
             this.logDate = new System.Windows.Forms.TextBox();
             this.logCon = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.Feeling = new System.Windows.Forms.ComboBox();
+            this.Feeling = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // logName
@@ -42,7 +42,6 @@ namespace JBLog
             this.logName.Name = "logName";
             this.logName.Size = new System.Drawing.Size(233, 20);
             this.logName.TabIndex = 0;
-            this.logName.Text = "Log Name";
             // 
             // logDate
             // 
@@ -50,7 +49,6 @@ namespace JBLog
             this.logDate.Name = "logDate";
             this.logDate.Size = new System.Drawing.Size(198, 20);
             this.logDate.TabIndex = 1;
-            this.logDate.Text = "Date";
             // 
             // logCon
             // 
@@ -58,7 +56,7 @@ namespace JBLog
             this.logCon.Name = "logCon";
             this.logCon.Size = new System.Drawing.Size(351, 126);
             this.logCon.TabIndex = 2;
-            this.logCon.Text = "Log contents";
+            this.logCon.Text = "";
             // 
             // button1
             // 
@@ -72,18 +70,10 @@ namespace JBLog
             // 
             // Feeling
             // 
-            this.Feeling.FormattingEnabled = true;
-            this.Feeling.Items.AddRange(new object[] {
-            "Depressed",
-            "Sad",
-            "Mild",
-            "Happy",
-            "Very Happy"});
-            this.Feeling.Location = new System.Drawing.Point(23, 293);
+            this.Feeling.Location = new System.Drawing.Point(23, 305);
             this.Feeling.Name = "Feeling";
-            this.Feeling.Size = new System.Drawing.Size(121, 21);
+            this.Feeling.Size = new System.Drawing.Size(198, 20);
             this.Feeling.TabIndex = 5;
-            this.Feeling.Text = "Feeling";
             // 
             // LogEditor
             // 
@@ -104,11 +94,10 @@ namespace JBLog
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox logName;
-        private System.Windows.Forms.TextBox logDate;
-        private System.Windows.Forms.RichTextBox logCon;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox Feeling;
+        public System.Windows.Forms.TextBox logName;
+        public System.Windows.Forms.TextBox logDate;
+        public System.Windows.Forms.RichTextBox logCon;
+        public System.Windows.Forms.TextBox Feeling;
     }
 }

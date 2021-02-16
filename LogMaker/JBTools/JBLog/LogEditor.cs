@@ -20,7 +20,7 @@ namespace JBLog
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Log.AddLog(logName.Text, logDate.Text, logCon.Text, Feeling.SelectedItem.ToString());
+            Log.AddLog(logName.Text, logDate.Text, logCon.Text, Feeling.Text);
             this.Close();
         }
     }
